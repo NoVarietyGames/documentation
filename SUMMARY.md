@@ -9,6 +9,7 @@
 
 ## ROBLOS Website Creator <a href="#websitecreator" id="websitecreator"></a>
 
+* [AppInstaller Files](websitecreator/appinstaller-files.md)
 * [HTML Interpreter](websitecreator/html.md)
 * [CSS Interpreter](websitecreator/css-interpreter/README.md)
   * [position](websitecreator/css-interpreter/position.md)
@@ -26,6 +27,8 @@
   * [visible](websitecreator/css-interpreter/visible.md)
   * [content](websitecreator/css-interpreter/content.md)
 * [LUAScript](websitecreator/luascript/README.md)
+  * [download](websitecreator/luascript/download/README.md)
+    * [commit](websitecreator/luascript/download/commit.md)
   * [Player](websitecreator/luascript/player.md)
   * [DOM](websitecreator/luascript/dom/README.md)
     * [Document](websitecreator/luascript/dom/document/README.md)
