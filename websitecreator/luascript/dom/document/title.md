@@ -1,7 +1,8 @@
 # title
 
 {% hint style="danger" %}
-This property currently does not exist. Use [gettitle.md](gettitle.md "mention") & [settitle.md](settitle.md "mention")
+This property currently does not exist and is a **work in progress**. \
+Please use [gettitle.md](gettitle.md "mention") & [settitle.md](settitle.md "mention")
 {% endhint %}
 
 The **`document.title`** property gets or sets the current title of the document. **`document.title`** defines the document's title that is shown in a browser's title bar or a page's tab.
