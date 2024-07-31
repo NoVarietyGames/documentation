@@ -15,9 +15,10 @@ end)
 document.dispatchEvent("customEvent1", "test1","test2","test3")
 ```
 
-```lua
-document.addEventListener("UserCommented",function(username,data)
+<pre class="language-lua"><code class="lang-lua">document.addEventListener("UserCommented",function(username,data)
     print(username .. " has commented on post id:" .. data.postid ". Here is the data!",data)
 end)
-document.dispatchEvent("UserCommented","PFearr",{postid: 0,message:"Hello!",date:"Wed Jul 31 01:12:22 2024", upvotes: 0, downvotes:0})
-```
+document.dispatchEvent("UserCommented","Roblox",{postid: 5,message:"This is cool!!",date:"Fri Jul 26 01:12:22 2024", upvotes: 9000, downvotes:200})
+<strong>document.dispatchEvent("UserCommented","PFearr",{postid: 0,message:"Hello!",date:"Wed Jul 31 01:12:22 2024", upvotes: 999999, downvotes:-99999})
+</strong>
+</code></pre>
