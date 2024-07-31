@@ -1,6 +1,6 @@
 # removeEventListener
 
-The **`removeEventListener()`** method removes any Event Listener using their event and eventID
+The **`removeEventListener()`** method removes any Event Listener using their eventID
 
 **Returns** EventId
 
