@@ -3,7 +3,7 @@
 The **`dispatchEvent()`** method sends an Event to the object, invoking the affected event listeners in the appropriate order.&#x20;
 
 ```lua
-document.dispatchEvent(eventName: String, ...arguments)
+document.dispatchEvent(eventName: String, ...arguments): void
 ```
 
 Examples

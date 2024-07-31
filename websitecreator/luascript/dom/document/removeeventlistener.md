@@ -1,11 +1,11 @@
-# addEventListener
+# removeEventListener
 
-The **`addEventListener()`** method sets up a function that will be called whenever the specified event is delivered to the target.&#x20;
+The **`removeEventListener()`** method removes any Event Listener using their event and eventID
 
 **Returns** EventId
 
 ```lua
-document.addEventListener(eventName: String,callback: function): EventId
+document.removeEventListener(eventName: String, EventId: EventId): void
 ```
 
 Examples
@@ -15,19 +15,16 @@ Examples
 <strong>    -- This only runs ONCE and it's when the page is first loaded.
 </strong>    print("DOM Took " .. tostring(timeTaken) .. " to load!"
 end)
+document.removeEventListener(eventid)
 
-<strong>local eventid2 = document.addEventListener("DOMContentRefreshed",function(timeTaken)
-</strong>    -- DOMContentRefreshed gives you the time taken to load the DOM which uses os.clock
-    -- This only runs every time you make a change using LuaScript which reloads the
-    -- entire DOM
-    print("DOM Took " .. tostring(timeTaken) .. " to load!"
-end)
 </code></pre>
 
 ```lua
 local eventid = document.addEventListener("customEvent",function(arg1)
     print("Custom Event Loaded!", arg1)
 end)
+document.removeEventListener(eventid)
 
+-- Event will dispatch but no print will occur
 document.dispatchEvent("customEvent", "test")
 ```

@@ -34,6 +34,7 @@
     * [Document](websitecreator/luascript/dom/document/README.md)
       * [title](websitecreator/luascript/dom/document/title.md)
       * [addEventListener](websitecreator/luascript/dom/document/addeventlistener.md)
+      * [removeEventListener](websitecreator/luascript/dom/document/removeeventlistener.md)
       * [dispatchEvent](websitecreator/luascript/dom/document/dispatchevent.md)
       * [createNode](websitecreator/luascript/dom/document/createnode.md)
       * [querySelector](websitecreator/luascript/dom/document/queryselector.md)
