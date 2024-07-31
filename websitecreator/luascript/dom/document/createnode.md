@@ -16,9 +16,8 @@ layout:
 
 The method **`createNode()`** creates the HTML element specified by _tagName._ Within the arguments you may also include attributes and the text included.
 
-```javascript
-document.createNode(TagName,AttributeTable,Text)
-```
+<pre class="language-javascript"><code class="lang-javascript"><strong>document.createNode(TagName,AttributeTable,Text)
+</strong></code></pre>
 
 Examples
 
