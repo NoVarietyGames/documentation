@@ -33,6 +33,8 @@
   * [DOM](websitecreator/luascript/dom/README.md)
     * [Document](websitecreator/luascript/dom/document/README.md)
       * [title](websitecreator/luascript/dom/document/title.md)
+      * [setTitle](websitecreator/luascript/dom/document/settitle.md)
+      * [getTitle](websitecreator/luascript/dom/document/gettitle.md)
       * [addEventListener](websitecreator/luascript/dom/document/addeventlistener.md)
       * [removeEventListener](websitecreator/luascript/dom/document/removeeventlistener.md)
       * [dispatchEvent](websitecreator/luascript/dom/document/dispatchevent.md)
