@@ -2,10 +2,10 @@
 
 
 
-The **`background-transparency`**CSS property defines the elements background color
+The **`background-transparency`**&#x43;SS property defines the elements background transparency
 
 Example
 
 ```css
-background-color: blue OR background-color: #74245a
+background-transparency: 0-1
 ```
